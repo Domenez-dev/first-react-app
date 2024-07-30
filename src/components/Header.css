@@ -1,17 +1,18 @@
 .header {
-    background-color: #333;
-    color: white;
-    padding: 1em 0;
-  }
-  
-  .header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .header h1 {
+  background-color: #0091ff;
+  color: white;
+  padding: 1em 0;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
     margin: 0;
+    color: white;
   }
   
   .header nav ul {
