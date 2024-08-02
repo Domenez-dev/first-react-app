@@ -21,7 +21,7 @@
   background-image: url('../assets/home-image.jpg');
   background-size: cover;
   background-position: center;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -42,6 +42,17 @@
 .home h2, .home p {
   position: relative;
   z-index: 2;
+}
+
+.home h2 {
+  color: white;
+  font-size: 48px;
+  margin-top: 0;
+  padding-top: 250px;
+}
+
+.home p {
+  font-size: 28px;
 }
 
 .main section ul {
